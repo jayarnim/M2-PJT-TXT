@@ -1,0 +1,12 @@
+name: m2-pjt-txt
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11.5
+  - pip
+  - m2w64-toolchain
+
+  - pip:
+    - -r requirements.txt
